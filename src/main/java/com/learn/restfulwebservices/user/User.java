@@ -1,4 +1,4 @@
-package com.learn.restfulwebservice.user;
+package com.learn.restfulwebservices.user;
 
 import java.time.LocalDate;
 
