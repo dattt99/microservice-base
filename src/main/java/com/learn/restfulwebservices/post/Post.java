@@ -1,4 +1,4 @@
-package com.learn.restfulwebservices;
+package com.learn.restfulwebservices.post;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.learn.restfulwebservices.user.User;
@@ -16,6 +16,14 @@ public class Post {
     @ManyToOne(fetch = FetchType.LAZY)
     @JsonIgnore
     private User user;
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }
 
     public Post() {
     }

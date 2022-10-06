@@ -1,5 +1,8 @@
-package com.learn.restfulwebservices;
+package com.learn.restfulwebservices.versionApi;
 
+import com.learn.restfulwebservices.versionApi.Name;
+import com.learn.restfulwebservices.versionApi.PersonV1;
+import com.learn.restfulwebservices.versionApi.PersonV2;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 

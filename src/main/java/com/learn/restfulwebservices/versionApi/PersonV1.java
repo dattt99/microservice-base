@@ -1,4 +1,4 @@
-package com.learn.restfulwebservices;
+package com.learn.restfulwebservices.versionApi;
 
 public class PersonV1 {
     private String name;

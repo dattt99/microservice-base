@@ -1,4 +1,6 @@
-package com.learn.restfulwebservices;
+package com.learn.restfulwebservices.versionApi;
+
+import com.learn.restfulwebservices.versionApi.Name;
 
 public class PersonV2 {
 
